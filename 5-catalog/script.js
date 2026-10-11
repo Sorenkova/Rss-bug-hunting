@@ -23,7 +23,7 @@ function getFiltered() {
   const sort = sortSelect.value;
 
   if (search) {
-    result = result.filter((p) => p.name.toLowerCase().includes(search)); // п.3, п.4
+    result = result.filter((p) => p.name.toLowerCase().includes(search));
   }
 
   if (category !== "all") {

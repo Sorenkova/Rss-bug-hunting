@@ -109,7 +109,6 @@ function renderCart() {
   }
 
   badgeEl.textContent = cart.reduce((sum, i) => sum + i.qty, 0);
-  length;
   totalEl.textContent = total;
   emptyMsg.hidden = cart.length > 0;
 }
